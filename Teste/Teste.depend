@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1488982792 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII2017/Teste/main.cpp
+	<iostream>
+	<stdio.h>
+	"matriz.h"
+
+1488982988 /home/PORTOALEGRE/16104071/DriveH/LAPROII2017/Teste/include/matriz.h
+	<iostream>
+	<stdio.h>
+
