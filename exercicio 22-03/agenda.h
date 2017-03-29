@@ -1,14 +1,21 @@
+#ifndef _Agenda_h_
+#define _Agenda_h_
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include <stdio.h>
 #include "Pessoa.h"
+
 using namespace std;
-class Agenda
-{
+class Agenda{
     Pessoa Povo[10];
 public:
+    Agenda();
+    ~Agenda();
     void armazenaPessoa(string nome, int idade, float altura);
     void removePessoa(string nome);
-    int buscaPessoa(string nome); // informa em que posição da agenda está a pessoa
+    int buscaPessoa(string nome); // informa em que posiï¿½ï¿½o da agenda estï¿½ a pessoa
     void imprimePovo(); // imprime todos os dados de todas as pessoas da agenda
-    void imprimePessoa(int i); // imprime os dados da pessoa que está na posição 'i' da agenda
-}
+    void imprimePessoa(int i); // imprime os dados da pessoa que estï¿½ na posiï¿½ï¿½o 'i' da agenda
+};
+#endif
