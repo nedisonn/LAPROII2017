@@ -17,7 +17,7 @@ Agenda::Agenda(){
 
 Agenda::~Agenda(){};
 
-void Agenda::armazenaPessoa(std::string nome, int idade, float altura)
+void Agenda::armazenaPessoa(string nome, int idade, float altura)
 {
     while (int i = 0)
     {
@@ -31,7 +31,7 @@ void Agenda::armazenaPessoa(std::string nome, int idade, float altura)
         }
     }
 };
-void Agenda::removePessoa(std::string nome)
+void Agenda::removePessoa(string nome)
 {
     while (int i = 0)
     {
@@ -47,7 +47,7 @@ void Agenda::removePessoa(std::string nome)
         }
     }
 };
-int Agenda::buscaPessoa(std::string nome)
+int Agenda::buscaPessoa(string nome)
 {
     int aux;
     while (int i = 0)
