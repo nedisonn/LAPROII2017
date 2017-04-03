@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1491220564 source:h:\laproii2017\exercicio 22-03\agenda-pessoa\mainpessoa.cpp
+	<stdio.h>
+	"Pessoa.h"
+
+1491220764 h:\laproii2017\exercicio 22-03\agenda-pessoa\pessoa.h
+	<iostream>
+	<string>
+	<stdlib.h>
+	<stdio.h>
+
+1491221132 source:h:\laproii2017\exercicio 22-03\agenda-pessoa\agenda.cpp
+	"Agenda.h"
+
+1491220764 source:h:\laproii2017\exercicio 22-03\agenda-pessoa\pessoa.cpp
+	"Pessoa.h"
+
+1491221048 source:h:\laproii2017\exercicio 22-03\agenda-pessoa\main.cpp
+	<stdio.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	"Pessoa.h"
+	"Agenda.h"
+
+1491221119 h:\laproii2017\exercicio 22-03\agenda-pessoa\agenda.h
+	"Pessoa.h"
+	<iostream>
+	<string>
+	<stdlib.h>
+	<stdio.h>
+
+1491220554 source:h:\laproii2017\exercicio 22-03\agenda-pessoa\mainagenda.cpp
+	<stdio.h>
+	<iostream>
+	"agenda.h"
+	"Pessoa.h"
+
